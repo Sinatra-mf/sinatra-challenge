@@ -37,9 +37,10 @@ Security:
 
 1- The script creates a security group called "WebServerSecurityGroup" and attach it to the main VPC which running our EC2 instance.
 
-2- It enbales HTTP inbound access via port 80 from any source 0.0.0.0/0.
+2- It enables HTTP inbound access via port 80 from any source 0.0.0.0/0.
 
-3- It enables SSH inbound access via port 22 from any source 0.0.0.0/0, this provides a secure and encrypted access to EC2 instance using by SSH key. This option can be restricted to specific IPs during deployment.
+3- It enables SSH inbound access via port 22 from any source 0.0.0.0/0, this provides a secure and encrypted access to EC2 instance via a SSH key which must be created during deployment. 
+Also this option can be restricted to specific IPs during deployment.
 
 4- The outbound traffic is permitted for all protocols, this left open for ease of this project and can be limited based on a request.
 
