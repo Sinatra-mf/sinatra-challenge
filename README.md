@@ -17,7 +17,7 @@ A predefined EC2 KeyPair (to enable SSH access to your EC2 instance)
 
 Base image: Amazon Linux which will be running on EC2 t2.micro (Free tier) and gp2 Volume type
 
-# Solution
+# Solution:
 
 Using JSON codes as "configuration-as-code recipes" to integrate better with AWS. This script needs to be run via CloudFormation tool to deploy the application and provides the Website URL.
 
