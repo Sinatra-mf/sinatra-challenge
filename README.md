@@ -24,7 +24,7 @@ Using JSON codes as "configuration-as-code recipes" to integrate better with AWS
 Example:http://ec2-13-55-40-147.ap-southeast-2.compute.amazonaws.com/wordpress 
 
 Deployment:
-
+--------------
 1- The script creates a single Amazon Linux EC2 instance with a local MySQL database for storage. 
 
 2- Installing and configure httpd to run a WebServer.
@@ -34,7 +34,7 @@ Deployment:
 4- providing the Website URL as an output.
 
 Security:
-
+-----------------
 1- The script creates a security group called "WebServerSecurityGroup" and attach it to the main VPC which running our EC2 instance.
 
 2- It enables HTTP inbound access via port 80 from any source 0.0.0.0/0.
