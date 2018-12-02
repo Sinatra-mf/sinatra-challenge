@@ -46,7 +46,11 @@ Also this option can be restricted to specific IPs during deployment.
 
 5- Script defines several securiy parameters to access the WordPress databse.These includes "DBUser", "DBPassword" and "DBRootPassword".
 
+Reasons for using a Linux EC2 instance:
 
+1- Using Linux image helps better automation when installing and configuring WebServer, MySQL and WordPress.
 
+2- It has a lighweight OS which speed up the deployment process.
 
+3- It can be integrated better with other configuration management and orchestration tools such as chef and puppet.
 
